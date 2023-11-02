@@ -1,6 +1,6 @@
 function init(){
 //add your javascrip between these two lines of code
-  function myEventFuncion(){
+  function myEventFunction(){
     alert(name+text.value);
     result.innerHTML = text.value;
   }
@@ -9,7 +9,7 @@ function init(){
   var text = document.getElementById('entryinput');
   var result = document.getElementById('textoutput');
   var name = 'Yelim Kang: ';
-  d1.addEventListener('click', myEventFuncion);
+  d1.addEventListener('click', myEventFunction);
   
 }
 window.addEventListener('load', init);
